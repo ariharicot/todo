@@ -38,9 +38,9 @@ form button {
 }
 
 form button {
-  padding: 1rem;
+  padding: 0.5rem;
   margin-left: 1rem;
-  border-radius: 35%;
+  border-radius: 50%;
   color: #ea47ff;
   background-color: white;
   cursor: pointer;
