@@ -1,9 +1,13 @@
 import React from 'react'
 
 const TodoList = () => {
-  return (
-    <div>TodoList</div>
-  )
+    return (
+        <div className="todo-container">
+            <ul className='todo-list'>
+
+            </ul>
+        </div>
+    )
 }
 
 export default TodoList

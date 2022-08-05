@@ -1,10 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import SubdirectoryArrowLeftIcon from '@mui/icons-material/SubdirectoryArrowLeft';
 
 const Form = () => {
+    const inputTextHandler = (e) => {
+        console.log(e);
+    }
   return (
     <form>
-        <input type="text" className='todo-input'></input>
+        <input type="text" className='todo-input' onChange={inputTextHandler}></input>
         <button>
         <SubdirectoryArrowLeftIcon className="todo-button" type="submit" />
         </button>
